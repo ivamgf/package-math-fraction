@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -32,21 +31,6 @@ export default function Home() {
             <h2>Use &rarr;</h2>
             <p>Learn about MDC and MMC Application!</p>
           </a>
-
-          <Link href="/math/mdc" className={styles.card}>
-            <a>
-              <h2>MDC &rarr;</h2>
-              <p>Calculate the mdc</p>
-            </a>            
-          </Link>
-
-          <Link href="/math/mmc" className={styles.card}>
-            <a>
-              <h2>MMC &rarr;</h2>
-              <p>Calculate the mmc</p>
-            </a>            
-          </Link>
-
           
         </div>
       </main>
